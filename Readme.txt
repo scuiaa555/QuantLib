@@ -1,5 +1,5 @@
 
-QuantLib: the free/open-source library for quantitative finance
+QuantLib: the free/open-source library for quantitative f
 ===============================================================
 
 The QuantLib project (<http://quantlib.org>) is aimed at providing a
