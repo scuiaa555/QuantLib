@@ -15,6 +15,6 @@ add_subdirectory(Pebbles)   # add my projects
 
 # Building the test suite might require using shared libraries
 # for Boost.Test
-option(USE_BOOST_DYNAMIC_LIBRARIES
+#[[option(USE_BOOST_DYNAMIC_LIBRARIES
        "Use the shared version of Boost.Test" OFF)
-add_subdirectory(test-suite)
+add_subdirectory(test-suite)]]
