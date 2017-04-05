@@ -1,0 +1,2 @@
+add_executable(LiborCurve LiborCurve.cpp)
+target_link_libraries(LiborCurve QuantLib)

@@ -6,11 +6,12 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 find_package(Boost)
 if (Boost_FOUND)
-  include_directories(${Boost_INCLUDE_DIRS})
+    include_directories(${Boost_INCLUDE_DIRS})
 endif (Boost_FOUND)
 
 add_subdirectory(Examples)
 add_subdirectory(ql)
+add_subdirectory(Pebbles)   # add my projects
 
 # Building the test suite might require using shared libraries
 # for Boost.Test

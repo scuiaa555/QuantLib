@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Examples\;CMake Files\Examples\BasketLosses\;CMake Files\Examples\BermudanSwaption\;CMake Files\Examples\Bonds\;CMake Files\Examples\CallableBonds\;CMake Files\Examples\CDS\;CMake Files\Examples\ConvertibleBonds\;CMake Files\Examples\CVAIRS\;CMake Files\Examples\DiscreteHedging\;CMake Files\Examples\EquityOption\;CMake Files\Examples\FittedBondCurve\;CMake Files\Examples\FRA\;CMake Files\Examples\Gaussian1dModels\;CMake Files\Examples\LatentModel\;CMake Files\Examples\MarketModels\;CMake Files\Examples\MultidimIntegral\;CMake Files\Examples\Replication\;CMake Files\Examples\Repo\;CMake Files\Examples\Swap\;CMake Files\ql\;CMake Files\test-suite\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Examples\;CMake Files\Examples\BasketLosses\;CMake Files\Examples\BermudanSwaption\;CMake Files\Examples\Bonds\;CMake Files\Examples\CallableBonds\;CMake Files\Examples\CDS\;CMake Files\Examples\ConvertibleBonds\;CMake Files\Examples\CVAIRS\;CMake Files\Examples\DiscreteHedging\;CMake Files\Examples\EquityOption\;CMake Files\Examples\FittedBondCurve\;CMake Files\Examples\FRA\;CMake Files\Examples\Gaussian1dModels\;CMake Files\Examples\GlobalOptimizer\;CMake Files\Examples\LatentModel\;CMake Files\Examples\MarketModels\;CMake Files\Examples\MultidimIntegral\;CMake Files\Examples\Replication\;CMake Files\Examples\Repo\;CMake Files\Examples\Swap\;CMake Files\ql\;CMake Files\Pebbles\;CMake Files\Pebbles\LiborCurve\;CMake Files\test-suite\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug"/>
@@ -613,6 +613,54 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/Gaussian1dModels/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="GlobalOptimizer">
+				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/GlobalOptimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/CUI/Dropbox/C++/QuantLib"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 GlobalOptimizer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GlobalOptimizer/fast">
+				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/GlobalOptimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/CUI/Dropbox/C++/QuantLib"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 GlobalOptimizer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/GlobalOptimizer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LatentModel">
 				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/LatentModel/LatentModel" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Examples/LatentModel"/>
@@ -949,6 +997,54 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/ql/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LiborCurve">
+				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/LiborCurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/CUI/Dropbox/C++/QuantLib"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 LiborCurve"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LiborCurve/fast">
+				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/LiborCurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/CUI/Dropbox/C++/QuantLib"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 LiborCurve/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/Pebbles/LiborCurve/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="quantlib-test-suite">
 				<Option output="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/test-suite/quantlib-test-suite" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/CUI/Dropbox/C++/QuantLib/cmake-build-debug/test-suite"/>
@@ -1034,6 +1130,9 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/Gaussian1dModels/Gaussian1dModels.cpp">
 			<Option target="Gaussian1dModels"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/GlobalOptimizer/GlobalOptimizer.cpp">
+			<Option target="GlobalOptimizer"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/LatentModel/LatentModel.cpp">
 			<Option target="LatentModel"/>
 		</Unit>
@@ -1051,6 +1150,10 @@
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/Swap/swapvaluation.cpp">
 			<Option target="SwapValuation"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Pebbles/LiborCurve/LiborCurve.cpp">
+			<Option target="QuantLib"/>
+			<Option target="LiborCurve"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/auto_link.hpp">
 			<Option target="QuantLib"/>
@@ -2243,6 +2346,12 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/fdmzabrop.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/fdornsteinuhlenbeckvanillaengine.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/fdornsteinuhlenbeckvanillaengine.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/fdsimpleextoujumpswingengine.cpp">
 			<Option target="QuantLib"/>
 		</Unit>
@@ -2259,6 +2368,12 @@
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/fdsimpleklugeextouvppengine.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/gbsmrndcalculator.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/gbsmrndcalculator.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/finitedifferences/glued1dmesher.cpp">
@@ -2408,6 +2523,12 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/math/gaussiancopulapolicy.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/math/gaussiannoncentralchisquaredpolynomial.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/math/gaussiannoncentralchisquaredpolynomial.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/math/hybridsimulatedannealing.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
@@ -2526,6 +2647,18 @@
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/models/hestonslvmcmodel.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/models/normalclvmodel.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/models/normalclvmodel.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/models/squarerootclvmodel.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/models/squarerootclvmodel.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/processes/all.hpp">
@@ -2757,6 +2890,9 @@
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/volatility/sabrvolsurface.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/volatility/sabrvoltermstructure.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/experimental/volatility/sviinterpolatedsmilesection.cpp">
@@ -3779,6 +3915,9 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/interpolations/kernelinterpolation2d.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/interpolations/lagrangeinterpolation.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/interpolations/linearinterpolation.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
@@ -4139,6 +4278,12 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/randomnumbers/sobolrsg.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/randomnumbers/stochasticcollocationinvcdf.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/randomnumbers/stochasticcollocationinvcdf.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/math/richardsonextrapolation.cpp">
 			<Option target="QuantLib"/>
 		</Unit>
@@ -4416,6 +4561,12 @@
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/methods/finitedifferences/operators/fdmlinearoplayout.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/methods/finitedifferences/operators/fdmornsteinuhlenbeckop.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/methods/finitedifferences/operators/fdmornsteinuhlenbeckop.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/methods/finitedifferences/operators/firstderivativeop.cpp">
@@ -6207,6 +6358,12 @@
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/pricingengines/vanilla/bjerksundstenslandengine.hpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/pricingengines/vanilla/coshestonengine.cpp">
+			<Option target="QuantLib"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/pricingengines/vanilla/coshestonengine.hpp">
 			<Option target="QuantLib"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/pricingengines/vanilla/discretizedvanillaoption.cpp">
@@ -8033,6 +8190,12 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/noarbsabr.hpp">
 			<Option target="quantlib-test-suite"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/normalclvmodel.cpp">
+			<Option target="quantlib-test-suite"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/normalclvmodel.hpp">
+			<Option target="quantlib-test-suite"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/nthtodefault.cpp">
 			<Option target="quantlib-test-suite"/>
 		</Unit>
@@ -8193,6 +8356,12 @@
 			<Option target="quantlib-test-suite"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/spreadoption.hpp">
+			<Option target="quantlib-test-suite"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/squarerootclvmodel.cpp">
+			<Option target="quantlib-test-suite"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/squarerootclvmodel.hpp">
 			<Option target="quantlib-test-suite"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/stats.cpp">
@@ -8366,6 +8535,9 @@
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/Gaussian1dModels/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Examples\Gaussian1dModels\"/>
 		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/GlobalOptimizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Examples\GlobalOptimizer\"/>
+		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Examples/LatentModel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Examples\LatentModel\"/>
 		</Unit>
@@ -8386,6 +8558,12 @@
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/ql/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ql\"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Pebbles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Pebbles\"/>
+		</Unit>
+		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/Pebbles/LiborCurve/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Pebbles\LiborCurve\"/>
 		</Unit>
 		<Unit filename="/Users/CUI/Dropbox/C++/QuantLib/test-suite/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test-suite\"/>
