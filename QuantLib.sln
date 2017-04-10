@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuantLib", "QuantLib.vcxproj", "{AD0A27DA-91DA-46A2-ACBD-296C419ED3AA}"
 EndProject
@@ -43,6 +43,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVAIRS", "Examples\CVAIRS\CVAIRS.vcxproj", "{D85EA161-361A-4CAC-8B77-39E174FCFFE2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalOptimizer", "Examples\GlobalOptimizer\GlobalOptimizer.vcxproj", "{ED7AED39-312A-4330-8ADF-DD24F848A754}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XiborBootstrapping", "pebbles\XiborBootstrapping\XiborBootstrapping.vcxproj", "{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -392,6 +394,22 @@ Global
 		{ED7AED39-312A-4330-8ADF-DD24F848A754}.Release|Win32.Build.0 = Release|Win32
 		{ED7AED39-312A-4330-8ADF-DD24F848A754}.Release|x64.ActiveCfg = Release|x64
 		{ED7AED39-312A-4330-8ADF-DD24F848A754}.Release|x64.Build.0 = Release|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug (static runtime)|Win32.ActiveCfg = Debug|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug (static runtime)|Win32.Build.0 = Debug|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug (static runtime)|x64.ActiveCfg = Debug|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug (static runtime)|x64.Build.0 = Debug|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug|Win32.Build.0 = Debug|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug|x64.ActiveCfg = Debug|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Debug|x64.Build.0 = Debug|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release (static runtime)|Win32.ActiveCfg = Release|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release (static runtime)|Win32.Build.0 = Release|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release (static runtime)|x64.ActiveCfg = Release|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release (static runtime)|x64.Build.0 = Release|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release|Win32.ActiveCfg = Release|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release|Win32.Build.0 = Release|Win32
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release|x64.ActiveCfg = Release|x64
+		{A403E6DF-B9BA-4A5C-A004-7462F23E0E99}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

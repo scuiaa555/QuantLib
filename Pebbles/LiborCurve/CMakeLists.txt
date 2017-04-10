@@ -1,2 +1,2 @@
-add_executable(LiborCurve LiborCurve.cpp)
+add_executable(LiborCurve LiborCurve_csv.cpp)
 target_link_libraries(LiborCurve QuantLib)
